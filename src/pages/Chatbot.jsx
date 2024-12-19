@@ -61,7 +61,7 @@ function Chatbot() {
         <div className="chatbox">
           <div className="box-header">
             <RiRobot3Fill size={25} />
-            <p className="robot">Robot</p>
+            <a className="robot">Robot</a>
             <button className="shrink" onClick={handleClicked}>
               <FaMinus />
             </button>
