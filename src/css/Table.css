@@ -1,0 +1,55 @@
+.container {
+    border: solid rgb(190, 190, 190) 1px;
+    margin-bottom: 50px;
+}
+
+.table {
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+th {
+    height: 60px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.narrow {
+    column-width: 140px;
+}
+
+.wide {
+    column-width: 180px;
+}
+
+td {
+    height: 60px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.btn-page {
+    width: max-content;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-page:hover {
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+
+.active {
+    background-color: rgb(180, 180, 180);
+    color: white;
+}
