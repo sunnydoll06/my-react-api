@@ -53,3 +53,9 @@ body {
   color: white;
   background-color: rgb(126, 190, 29);
 }
+
+@media(max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}

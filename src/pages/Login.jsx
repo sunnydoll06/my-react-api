@@ -6,6 +6,8 @@ function Login() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
+  const defaultAccount = "hamaadm33";
+  const defaultPassword = "hamaadm33";
 
   async function postData({ account, password }) {
     try {
@@ -39,8 +41,8 @@ function Login() {
     }
   };
 
-  const [account, setAccount] = useState("");
-  const [password, setPassword] = useState("");
+  const [account, setAccount] = useState(defaultAccount);
+  const [password, setPassword] = useState(defaultPassword);
   const handleSubmit = (e) => {
     e.preventDefault();
     postData({ account, password });
